@@ -1,0 +1,19 @@
+{
+  "name": "testapp",
+  "version": "1.0.0",
+  "description": "First node app - using chalk",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thevalonqar/nodeTest.git"
+  },
+  "author": "James McAdoo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thevalonqar/nodeTest/issues"
+  },
+  "homepage": "https://github.com/thevalonqar/nodeTest#readme"
+}
