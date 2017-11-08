@@ -1,5 +1,50 @@
 const chalk = require('chalk');
 
-console.log(chalk.red('Hello world!'));
+//require lodash
+var _ = require('lodash')
 
-console.log(chalk.greenBright('I\'m using chalk!'));
+// console.log(chalk.red('Hello world!'));
+
+// console.log(chalk.greenBright('I\'m using chalk!'));
+
+// var theDate = new Date();
+// console.log(theDate.getDay());
+
+
+
+//Declare some objects
+// var person = new Object();
+// var InventoryList = {};
+
+// var Dog = {
+//     name: 'Odie',
+//     age: 15,
+//     color: 'yellow'
+// };
+
+// for (var prop in Dog){
+//     // console.log(prop + " " + Dog[prop]);
+//     console.log(`${prop} is ${Dog[prop]}`);
+// };
+
+// _.forEach(Dog, value =>{
+//     console.log(value);
+// });
+
+var Owner = {
+    name: "Jon",
+    age: "32",
+    Cat: {
+        name: "Garfield",
+        color: "Orange"
+    },
+    Dog: {
+        name: "Odie",
+        color: "Yellow"
+    }
+};
+
+console.log(Owner.name + "'s" + " " + Owner.Dog.name);
+
+Owner.lastName = "Arbuckle";
+console.log(Owner.lastName);    
