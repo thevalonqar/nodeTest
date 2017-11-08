@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/thevalonqar/nodeTest/issues"
   },
-  "homepage": "https://github.com/thevalonqar/nodeTest#readme"
+  "homepage": "https://github.com/thevalonqar/nodeTest#readme",
+  "dependencies": {
+    "chalk": "^2.3.0"
+  }
 }
