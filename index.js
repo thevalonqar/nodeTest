@@ -40,7 +40,7 @@ var Owner = {
     },
     Dog: {
         name: "Odie",
-        color: "Yellow"
+        color: "Green"
     }
 };
 
