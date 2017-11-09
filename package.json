@@ -18,6 +18,10 @@
   "homepage": "https://github.com/thevalonqar/nodeTest#readme",
   "dependencies": {
     "chalk": "^2.3.0",
-    "lodash": "^4.17.4"
+    "json": "^9.0.6",
+    "lodash": "^4.17.4",
+    "read": "^1.0.7",
+    "read-json": "^1.0.3",
+    "read-package-json": "^2.0.12"
   }
 }
